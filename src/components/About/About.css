@@ -1,0 +1,11 @@
+.about__header {
+    height: 200px;
+    width: 100%;
+    background-image: url('/img/about-header.jpg');
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .about__body {
+    padding: 30px 40px;
+  }

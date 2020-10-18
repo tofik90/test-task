@@ -1,0 +1,10 @@
+.app {
+  display: grid;
+  grid-template: auto / minmax(auto, 400px) 10fr;
+  grid-template-areas: "sidebar content";
+  min-height: 100vh;
+}
+
+.content {
+  grid-area: content;  
+}

@@ -1,0 +1,28 @@
+.nav {
+  margin: 50px 0;
+}
+
+.nav::before,
+.nav::after {
+  display: block;
+  content: "";
+  max-width: 200px;
+  height: 1px;
+  background: #5e5e5e;
+  position: relative;
+}
+
+.nav::before {
+  top: -10px;
+}
+
+.nav::after {
+  top: 10px;
+}
+
+.nav__link {
+  display: block;
+  font-size: 16px;
+  text-transform: uppercase;
+  margin: 20px 0;
+}
